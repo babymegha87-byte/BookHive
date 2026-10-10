@@ -1,0 +1,18 @@
+footer {
+ background-color: var(--primary);
+ color: var(--white);
+ text-align: center;
+ padding: var(--space-lg) var(--space-md);
+ margin-top: var(--space-xl);
+}
+footer p {
+ margin-bottom: var(--space-xs);
+}
+footer a {
+ color: var(--accent);
+ text-decoration: none;
+ margin: 0 var(--space-xs);
+}
+footer a:hover {
+ text-decoration: underline;
+}

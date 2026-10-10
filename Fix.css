@@ -1,0 +1,37 @@
+header {
+ background-color: var(--primary);
+ color: var(--white);
+ padding: var(--space-md) var(--space-lg);
+ box-shadow: var(--shadow-sm);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ /* FLEXBOX MAGIC */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: var(--space-md);
+}
+header h1 {
+ font-family: 'Playfair Display', Georgia, serif;
+ font-size: 2rem;
+ margin-bottom: 0; /* removed - flexbox handles spacing */
+}
+/* Navigation as flex container too */
+nav {
+ display: flex;
+ gap: var(--space-sm);
+ flex-wrap: wrap;
+}
+nav a {
+ color: var(--white);
+ text-decoration: none;
+ padding: var(--space-xs) var(--space-sm);
+ border-radius: 4px;
+ transition: all 0.3s;
+}
+nav a:hover {
+ background-color: var(--accent);
+ color: var(--primary);
+}

@@ -1,0 +1,38 @@
+CSS
+/* ===========================
+ CSS VARIABLES - Brand Colors
+ =========================== */
+:root {
+ /* Colors */
+ --primary: #5B3A29;
+ --accent: #F4A261;
+ --bg: #FFF8F0;
+ --text-dark: #2C2C2C;
+ --text-muted: #6B6B6B;
+ --success: #2E7D32;
+ --error: #C62828;
+ --white: #FFFFFF;
+ --light-gray: #F5F5F5;
+ /* Spacing */
+ --space-xs: 0.5rem; /* 8px */
+ --space-sm: 1rem; /* 16px */
+ --space-md: 1.5rem; /* 24px */
+ --space-lg: 2rem; /* 32px */
+ --space-xl: 3rem; /* 48px */
+ /* Other */
+ --border-radius: 8px;
+ --max-width: 1200px;
+ --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+ --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+}
+CSS
+header {
+ background-color: var(--primary);
+ padding: var(--space-md);
+ color: var(--white);
+}
+.btn {
+ background-color: var(--accent);
+ padding: var(--space-sm) var(--space-md);
+ border-radius: var(--border-radius);
+}

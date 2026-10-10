@@ -1,0 +1,22 @@
+.book-grid {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: var(--space-lg);
+ margin-top: var(--space-lg);
+}
+.book-card {
+ background: var(--white);
+ border-radius: var(--border-radius);
+ padding: var(--space-md);
+ box-shadow: var(--shadow-sm);
+ text-align: center;
+ transition: transform 0.3s, box-shadow 0.3s;
+ /* FLEX ITEM CONFIG */
+ flex: 1 1 250px; /* grow, shrink, base width */
+ max-width: 280px;
+}
+.book-card:hover {
+ transform: translateY(-5px);
+ box-shadow: var(--shadow-md);
+}
